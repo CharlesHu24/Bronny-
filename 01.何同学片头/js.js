@@ -10,11 +10,6 @@ function startPlay(myAuto) {
 }
 
 function stopPlay(myAuto) {
-  // myAuto.ontimeupdate = () => {
-  // if (myAuto.currentTime >= 33) {
-  //   myAuto.pause()
-  //   return false
-  // }
 
   let timer = null
   setTimeout(() => {
